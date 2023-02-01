@@ -1,0 +1,147 @@
+@media(max-width:416px){
+    *{
+        margin: 0;
+    }
+    header{
+        display: block;
+        
+        width: 100vh;
+        margin: 0;
+        height: 70px;
+        background: rgba(0, 0, 10, 0.945);
+    }
+    .logo img{
+        max-width: 100px;
+        height: auto;
+        margin-top: -3%;
+        cursor: pointer;
+        transform: translateY(12%);
+    }
+    .btn-option{
+        width: 90px;
+        height: auto;
+        display: block;
+        margin-left: 80%;
+        margin-top: -10%;
+        cursor: pointer;
+        position: absolute;
+        transform: translateY(-35%);
+        
+    }
+    .trait1{
+       width: 50px;
+       height: 10px;
+       background: rgb(249, 252, 249);
+       border-radius: 19px;
+       flex: none;
+    }
+    .trait2{
+        width: 40px;
+        height: 10px;
+        background: rgb(252, 253, 252);
+        border-radius: 19px;
+        margin-top: 4%;
+        
+         
+     }
+     .trait3{
+        width: 30px;
+        height: 10px;
+        background: rgb(248, 250, 248);
+        border-radius: 19px;
+        margin-top: 3%;
+         
+     }
+    .options{
+        position: absolute;
+        width: 100vw;
+        height: 90vh;
+        text-align: left;
+        transition:ease all 1s;
+        transform: translateY(-100vh);
+       
+    
+    }
+    li{
+        text-decoration: none;
+        list-style: none;
+        cursor: pointer;
+    }
+    .liste-option{
+        margin-top: -4%;
+        width: 87vw;
+        height: 81vh;
+        padding-top: 10%;
+        background: rgb(110, 105, 105);
+    }
+    .btn-close{
+        margin-left: 89%;
+        max-width: 20px;
+        height: 20px;
+        background: rgb(245, 7, 7);
+        color: white;
+        text-align: center;
+        cursor: pointer;
+
+    }
+
+     .deroulant{
+     
+    }
+    .deroulant li{
+        font-size: 30px;
+        margin-top: 4%;
+        border-bottom: 0.5px solid white;
+
+    }
+    .sous{
+        display: none;
+    }
+    .sous li{
+        border-bottom: none;
+    }
+    .deroulant .lion-en-club:hover .sous{
+        display: block;
+    }
+
+    .block-pub{
+        padding-top: 18%;
+        width: 100vw;
+        height: 100px;
+        background: rgb(77, 74, 74);
+    }
+    
+    .Acceuil h1{
+        padding: 6%;
+        font-size: 50px;
+        text-align: center;
+    }
+    .box-article{
+        width: 80%;
+        height: 300px;
+        background: #000;
+        margin-left: 10%;
+        margin-top: 3%;
+        display: block;
+    }
+
+
+    /* stylisation des articles de l'acceuil */
+
+
+    .image-article img {
+        max-width:300px;
+        height: 300px;
+       
+
+    }
+    .Accroche{
+        
+        margin-top: -35%;
+        width: 300px;
+        color:white;
+        font-size: 30px;
+        position: absolute;
+        background: #000;
+    }
+}
